@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GetCurrentLocation</string>
+    <string name="google_map_api_key">AIzaSyAqFwK0g9H758K6Uq0DCm-epw7eymhvrjs</string>
+    <string name="image">Image</string>
+</resources>

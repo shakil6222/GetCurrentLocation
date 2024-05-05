@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/normalMap_menu"
+        android:title="Normal Map"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/hybridMap_menu"
+        android:title="Hybride Map"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sateliteMap_menu"
+        android:title="SateliteMap Map"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/trainMap_menu"
+        android:title="TrainMap Map"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/explore_menu"
+        android:title="Explore"
+        android:icon="@drawable/baseline_add_location_24"/>
+<item
+        android:id="@+id/go_menu"
+        android:title="Go"
+        android:icon="@drawable/bush_menu_icon"/>
+<item
+        android:id="@+id/saved_menu"
+        android:title="Saved"
+        android:icon="@drawable/baseline_saved_24"/>
+<item
+        android:id="@+id/contribute_menu"
+        android:title="Contribute"
+        android:icon="@drawable/baseline_add_circle_24"/>
+<item
+        android:id="@+id/updates_menu"
+        android:title="Updates"
+        android:icon="@drawable/baseline_notifications_24"/>
+
+</menu>

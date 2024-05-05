@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:id="@+id/mapFragement"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/mapOptionButton"
+        android:background="@null"
+       android:scaleType="fitXY"
+        android:contentDescription="@string/image"
+        android:src="@drawable/baseline_menu_24"
+        android:layout_height="50dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="280dp"
+        app:cardCornerRadius="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_height="50dp">
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            app:iconifiedByDefault="false"
+            android:id="@+id/searchItem_searchView"
+            app:queryHint="Search.."
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="220dp"
+            android:id="@+id/voiceSearch_imageView"
+            android:src="@drawable/baseline_settings_voice_24"
+            android:layout_height="wrap_content"
+            tools:ignore="ContentDescription" />
+    </androidx.cardview.widget.CardView>
+
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_alignParentEnd="true"
+    app:itemRippleColor="#B90D1B81"
+    android:layout_alignParentBottom="true"
+    app:menu="@menu/location_buttonnavication"
+    android:scrollIndicators="left"/>
+
+
+</RelativeLayout>
